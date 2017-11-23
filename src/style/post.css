@@ -23,6 +23,15 @@
   & > .markdown-body {
     margin-top: 40px;
 
+    & pre {
+      background-color: #e8e6e1;
+    }
+
+    & img {
+      box-shadow: 0 0 5px 1px;
+      color: rgba(0,0,0,0.3);
+    }
+
     &:before {
       content: '';
       width: 30px;
